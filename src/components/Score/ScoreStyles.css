@@ -1,0 +1,65 @@
+/* components/Score/ScoreStyles.css */
+
+.score-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.score-value {
+    font-size: 48px;
+    font-weight: bold;
+    color: #007BFF;
+    /* Adjust this color based on your theme */
+}
+.score-details {
+    border: 1px solid #eee;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+}
+
+.feedback-message {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+}
+
+.great {
+    border: 2px solid #4CAF50;
+    /* Green */
+    background-color: rgba(76, 175, 80, 0.1);
+    /* Light Green */
+}
+
+.okay {
+    border: 2px solid #FFC107;
+    /* Amber */
+    background-color: rgba(255, 193, 7, 0.1);
+    /* Light Amber */
+}
+
+.bad {
+    border: 2px solid #FF5722;
+    /* Deep Orange */
+    background-color: rgba(255, 87, 34, 0.1);
+    /* Light Deep Orange */
+}
+
+.feedback-message {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+}
